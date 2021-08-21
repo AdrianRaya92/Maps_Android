@@ -48,7 +48,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(marbella).title("Marbella"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(marbella, 7));
 
-        // Add a marker in Marbella and move the camera
+        // Add a marker in Madrid and move the camera
         LatLng madrid = new LatLng(40.4167047, -3.7035825);
         mMap.addMarker(new MarkerOptions().position(madrid).title("Madrid"));
 

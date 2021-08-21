@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnMap = (Button) findViewById(R.id.buttonMap);
 
-        //Permisos
+        //Permisos de localización
         boolean permissionAccessCoarseLocationApproved =
                 ActivityCompat.checkSelfPermission(this,
                         Manifest.permission.ACCESS_FINE_LOCATION) ==
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
+        //Botón para ir a otra activity
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
